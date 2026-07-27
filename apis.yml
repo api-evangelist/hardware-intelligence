@@ -1,8 +1,16 @@
 aid: hardware-intelligence
 name: Hardware Intelligence
-description: Hardware Intelligence is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Hardware Intelligence is a Y Combinator (Summer 2026) startup based in San
+  Francisco building an end-to-end, agent-native toolchain for chip design.
+  Founded in 2026 by Athreya Anand, the company applies agentic AI and ultrafast
+  feedback loops to the semiconductor design and verification workflow. Its first
+  product, Wave, is a terminal-native waveform debugger with a verification agent
+  built in, aimed at accelerating hardware debugging and design iteration. At the
+  time of profiling the company is pre-launch with early-access pilots and a
+  waitlist; it publishes no public API, developer documentation, SDKs, or
+  OpenAPI, so this API Evangelist profile captures company identity only and
+  awaits a developer surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/hardware-intelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,52 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://hardwareintelligence.ai/og-image.png
 tags:
 - Company
+- Hardware
+- Semiconductors
+- Chip Design
+- AI
+- Developer Tools
+- EDA
+- Agentic
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hardware-intelligence-domain-security.yml
+- type: Website
+  url: https://hardwareintelligence.ai/
+- type: Product
+  name: Wave
+  url: https://hardwareintelligence.ai/wave/
+- type: YCombinator
+  url: https://www.ycombinator.com/companies/hardware-intelligence
+- type: Twitter
+  url: https://x.com/hwintelligence
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hardwareintelligence/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
